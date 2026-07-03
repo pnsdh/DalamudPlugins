@@ -1,11 +1,11 @@
 [
   {
-    "Author": "The Combat Reborn Team (KR Custom fork by pnsdh)",
+    "Author": "The Combat Reborn Team",
     "Name": "Passport Checker Reborn (Custom)",
     "InternalName": "PassportCheckerReborn",
     "AssemblyVersion": "7.5.1.0",
     "TestingAssemblyVersion": "7.5.1.0",
-    "Description": "Passport Checker Reborn is an open-source alternative to the PFFinder plugin. This is a custom fork adapted for the Korean server (KR world/FFLogs mapping, Korean UI, PlayerTrack-based name recovery for hidden players).",
+    "Description": "파티 찾기 목록 옆에 멤버 정보 오버레이를 표시하는 플러그인입니다. 한국 서버에 맞게 수정한 버전으로, 한국 월드/FFLogs 매핑, 한국어 UI, PlayerTrack 기반 비공개 플레이어 이름 복원을 지원합니다.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/pnsdh/PassportCheckerReborn",
     "Tags": [
@@ -29,7 +29,7 @@
     "LoadPriority": 0,
     "IsTestingExclusive": false,
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/PCR_Icon.png",
-    "Punchline": "Shows a member-info overlay alongside party finder listings. (KR custom fork)",
+    "Punchline": "파티 찾기 멤버의 로그·진행도를 한눈에 (한국 서버용)",
     "AcceptsFeedback": false,
     "DownloadCount": 0,
     "DownloadLinkInstall": "https://github.com/pnsdh/PassportCheckerReborn/releases/latest/download/latest.zip",
