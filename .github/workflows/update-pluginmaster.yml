@@ -1,0 +1,55 @@
+name: Update pluginmaster
+
+# Keeps pluginmaster.json in sync with each plugin's latest GitHub Release.
+# For every entry it fetches "<RepoUrl>/releases/latest/download/<InternalName>.json"
+# (the manifest the plugin's release workflow attaches) and copies its
+# AssemblyVersion over, so Dalamud offers users the update. No secrets needed —
+# it only writes to this repo with the built-in token.
+#
+# Runs on a schedule and can be triggered instantly from the Actions tab
+# (Run workflow) right after a plugin release.
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync versions from each plugin's latest release
+        shell: pwsh
+        run: |
+          $master = Get-Content pluginmaster.json -Raw | ConvertFrom-Json
+          $changed = $false
+          foreach ($p in @($master)) {
+            $url = "$($p.RepoUrl)/releases/latest/download/$($p.InternalName).json"
+            try {
+              $m = Invoke-RestMethod -Uri $url -Headers @{ 'User-Agent' = 'pluginmaster-sync' } -ErrorAction Stop
+            } catch {
+              Write-Host "skip $($p.InternalName): no release manifest yet ($url)"
+              continue
+            }
+            if ($m.AssemblyVersion -and $m.AssemblyVersion -ne $p.AssemblyVersion) {
+              Write-Host "$($p.InternalName): $($p.AssemblyVersion) -> $($m.AssemblyVersion)"
+              $p.AssemblyVersion = $m.AssemblyVersion
+              $p.TestingAssemblyVersion = $m.AssemblyVersion
+              $changed = $true
+            }
+          }
+          if ($changed) {
+            ConvertTo-Json @($master) -Depth 20 | Set-Content pluginmaster.json
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add pluginmaster.json
+            git commit -m "Sync plugin versions from latest releases"
+            git push
+          } else {
+            Write-Host "pluginmaster.json already up to date."
+          }
