@@ -23,6 +23,10 @@ https://raw.githubusercontent.com/pnsdh/DalamudPlugins/main/pluginmaster.json
 |---|---|---|
 | **Passport Checker Reborn (Custom)** | 한국 서버에 맞게 수정한 파티 찾기 멤버 정보 오버레이 (한국 월드/FFLogs 매핑, 한국어 UI, PlayerTrack 기반 비공개 플레이어 이름 복원). | [pnsdh/PassportCheckerReborn](https://github.com/pnsdh/PassportCheckerReborn) |
 
+## 디스코드
+
+https://discord.gg/AjVHyDNjUd
+
 ## 참고
 
 - 각 플러그인의 소스 코드와 릴리스 빌드는 각자의 저장소(위 링크)에 있습니다.
