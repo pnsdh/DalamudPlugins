@@ -22,6 +22,7 @@ https://raw.githubusercontent.com/pnsdh/DalamudPlugins/main/pluginmaster.json
 | 플러그인 | 설명 | 소스 |
 |---|---|---|
 | **Passport Checker Reborn (Custom)** | 한국 서버에 맞게 수정한 파티 찾기 멤버 정보 오버레이 (한국 월드/FFLogs 매핑, 한국어 UI, PlayerTrack 기반 비공개 플레이어 이름 복원). | [pnsdh/PassportCheckerReborn](https://github.com/pnsdh/PassportCheckerReborn) |
+| **Better Party Finder (KR Custom)** | 한국 서버에 맞게 수정한 파티 찾기 고급 필터 (프리셋 저장·전환, 임무/카테고리 화이트리스트·블랙리스트, 특정 플레이어 숨기기, 아이템 레벨 범위·복수 잡 필터). | [pnsdh/BetterPartyFinderKR](https://github.com/pnsdh/BetterPartyFinderKR) |
 
 ## 디스코드
 
