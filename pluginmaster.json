@@ -35,5 +35,38 @@
     "DownloadLinkInstall": "https://github.com/pnsdh/PassportCheckerReborn/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/pnsdh/PassportCheckerReborn/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/pnsdh/PassportCheckerReborn/releases/latest/download/latest.zip"
+  },
+  {
+    "Author": "Infi, ash, Anna",
+    "Name": "Better Party Finder (KR Custom)",
+    "InternalName": "BetterPartyFinder",
+    "AssemblyVersion": "7.5.1.0",
+    "TestingAssemblyVersion": "7.5.1.0",
+    "Description": "파티 찾기에 고급 필터 프리셋을 제공하는 플러그인입니다. 기본 필터 기능에 더해 프리셋 저장·전환, 임무/카테고리 화이트리스트·블랙리스트, 특정 플레이어 숨기기, 아이템 레벨 범위 필터, 복수 잡·슬롯 필터를 지원합니다. 한국 서버에 맞게 수정한 버전입니다.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/pnsdh/BetterPartyFinderKR",
+    "Tags": [
+      "party finder",
+      "filter",
+      "preset",
+      "korean",
+      "kr"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IsTestingExclusive": false,
+    "IconUrl": "https://raw.githubusercontent.com/pnsdh/BetterPartyFinderKR/main/icon.png",
+    "Punchline": "파티 찾기 필터 프리셋으로 원하는 파티만 골라 보기 (한국 서버용)",
+    "AcceptsFeedback": false,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/pnsdh/BetterPartyFinderKR/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/pnsdh/BetterPartyFinderKR/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/pnsdh/BetterPartyFinderKR/releases/latest/download/latest.zip"
   }
 ]
