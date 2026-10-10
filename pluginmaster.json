@@ -68,5 +68,38 @@
     "DownloadLinkInstall": "https://github.com/pnsdh/BetterPartyFinderKR/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/pnsdh/BetterPartyFinderKR/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/pnsdh/BetterPartyFinderKR/releases/latest/download/latest.zip"
+  },
+  {
+    "Author": "veyn, xan_0, Enzyu",
+    "Name": "Boss Mod (Custom)",
+    "InternalName": "BossMod",
+    "AssemblyVersion": "7.5.6.5616",
+    "TestingAssemblyVersion": "7.5.6.5616",
+    "Description": "보스 기믹 레이더, 자동 로테이션, 쿨다운 플래너, AI를 제공하는 플러그인입니다. 본가(awgil/ffxiv_bossmod)를 자동으로 따라가며, 한국 서버 공략에 맞춘 옵션을 추가한 버전입니다.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/pnsdh/ffxiv_bossmod_custom",
+    "Tags": [
+      "boss",
+      "raid",
+      "radar",
+      "korean",
+      "kr"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IsTestingExclusive": false,
+    "IconUrl": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/f4efcb5dc279d21ee16185d5a9f2d09a3a2bc58b/Data/icon.png",
+    "Punchline": "레이드 기믹 실수 방지 (한국 서버 공략 옵션 추가)",
+    "AcceptsFeedback": false,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/pnsdh/ffxiv_bossmod_custom/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/pnsdh/ffxiv_bossmod_custom/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/pnsdh/ffxiv_bossmod_custom/releases/latest/download/latest.zip"
   }
 ]
