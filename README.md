@@ -23,6 +23,7 @@ https://raw.githubusercontent.com/pnsdh/DalamudPlugins/main/pluginmaster.json
 |---|---|---|
 | **Passport Checker Reborn (Custom)** | 한국 서버에 맞게 수정한 파티 찾기 멤버 정보 오버레이 (한국 월드/FFLogs 매핑, 한국어 UI, PlayerTrack 기반 비공개 플레이어 이름 복원). | [pnsdh/PassportCheckerReborn](https://github.com/pnsdh/PassportCheckerReborn) |
 | **Better Party Finder (KR Custom)** | 한국 서버에 맞게 수정한 파티 찾기 고급 필터 (프리셋 저장·전환, 임무/카테고리 화이트리스트·블랙리스트, 특정 플레이어 숨기기, 아이템 레벨 범위·복수 잡 필터). | [pnsdh/BetterPartyFinderKR](https://github.com/pnsdh/BetterPartyFinderKR) |
+| **Boss Mod (Custom)** | 본가 Boss Mod를 자동으로 따라가며 한국 서버에 맞게 수정한 버전 (한국어 UI, 절 오메가 검증전 09STOP 공략 옵션, 파티 역할 미배정 채팅 알림). 본가 Boss Mod와 같은 플러그인으로 인식되므로 본가를 지운 뒤 설치하세요. | [pnsdh/ffxiv_bossmod_custom](https://github.com/pnsdh/ffxiv_bossmod_custom) |
 
 ## 디스코드
 
